@@ -1,0 +1,135 @@
+div img{
+    display: block;
+    width: 100%;
+    height: 17.5rem;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+
+.box-all{
+    padding-top: 3rem;
+    transition: .3s;
+}
+
+.box-content{
+    width: 66%;
+    margin: 0 auto;    
+}
+.article-head{
+    background: rgb(213, 151, 160);
+}
+.article-head h1{
+    padding-left: 1rem;
+}
+.article-head p{
+    padding-right: 1rem;
+}
+.article-content{
+    padding: 2rem;
+}
+/* 文章分享 */
+.extra{
+    background-color: rgb(227 177 185);
+    height: 3rem;
+}
+.tags p{
+    margin: auto 1rem;
+}
+.extra .tag,img,p{
+    margin-right: 1rem;
+}
+.share img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.extra .tag{
+    color: #ffffff;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+}
+.blue{
+    background-color: rgb(14, 197, 197);
+}
+.pink{
+    background-color: rgb(215, 142, 154);
+}
+.green{
+    background-color: rgb(110, 178, 9);
+}
+.orange{
+    background-color: rgb(201, 135, 13);
+}
+/* 评论 */
+.more{
+    display: block;
+    width: 125px;
+    margin: 1.4rem auto;
+}
+.more:hover{
+    background-color: rgb(89, 146, 3);
+}
+/* 留言板*/
+#comment-form {
+    background-color: rgb(227 177 185);
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+#remark {
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    padding-left: 1.38rem;
+}
+
+.info {
+    margin: 1.38rem 1.27rem;
+
+}
+
+input {
+    width: 48%;
+    height: 2.6rem;
+    text-indent: 1.3rem;
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+    color: #BFBFBF;
+}
+
+textarea {
+    outline: none;
+    background-color: #ffffff;
+    border: 0;
+    width: 94.5%;
+    display: block;
+    margin: 0 auto;
+    text-indent: 1.3rem;
+    padding-top: 1.22rem;
+    color: #000000;
+    resize: none;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #BFBFBF;
+}
+
+.btn.c-blue {
+    background-color: #00A0E9;
+    width: 100px;
+    margin: 1.4rem 0;
+    margin-left: 35.9rem;
+    cursor: pointer;
+}
+
+.btn.c-blue:hover {
+    background-color: #009fe98f;
+}

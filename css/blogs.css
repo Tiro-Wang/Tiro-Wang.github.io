@@ -1,0 +1,144 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.loading-div {
+    width: 1800px;
+    height: 720px;
+    background-color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+    color: #555;
+    overflow: hidden;
+    text-align: center;
+}
+
+.loading-div::before {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+#spinner {
+    position: fixed;
+    z-index: 9999999;
+    width: 100%;
+    height: 100%;
+}
+
+.inner-banner {
+    color: #f3f3f3;
+    text-align: center;
+    padding-top: 30px;
+    text-shadow: rgb(187, 187, 187) -1px 1px 0px,
+        rgb(181, 181, 181) -2px 1px 0px,
+        rgb(172, 172, 172) -3px 2px 0px,
+        rgb(160, 160, 160) -4px 2px 0px,
+        rgb(145, 145, 145) -5px 3px 0px,
+        rgb(127, 127, 127) -6px 3px 0px,
+        rgba(0, 0, 0, 0.2) -7px 4px 1px,
+        rgba(0, 0, 0, 0.3) -14px 8px 6px;
+}
+
+.inner-banner h1 {
+    font-size: 50px;
+}
+
+.inner-banner h1,
+h5 {
+    font-weight: 400;
+
+}
+
+.inner-banner h5 {
+    font-size: 20px;
+    margin-top: 40px;
+    padding-bottom: 120px;
+}
+
+/* blog样式 */
+/* 文章布局 */
+
+.article-wrap {
+    width: 95%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.article-wrap article {
+    background-color: black;
+    width: 30%;
+    /* height: 500px; */
+    /* color: ; */
+    margin-bottom: 3.3rem;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+img {
+    width: 100%;
+    height: 14rem;
+    border-radius: 0.2rem;
+}
+
+.content-wrap {
+    font-size: 0.8rem;
+    padding: 1.1rem;
+    color: #f6f6f6;
+}
+
+.content-wrap h3 {
+    text-align: center;
+    margin-top: 0.3rem;
+    margin-bottom: 0.23rem;
+}
+
+.content-wrap p {
+    margin-top: 0.3rem;
+    /* 单行文字省略号 */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* 多行 */
+    /* -webkit-line-clamp: 2;
+    display:-webkit-box;
+    -webkit-box-orient: vertical; */
+}
+
+/* 时间 */
+#see-more {
+    margin-top: 1rem;
+}
+
+#see-more .iconfont {
+    font-size: 0.18rem;
+    margin-right: 0.5rem;
+}
+
+#see-more .more {
+    border: 1px solid rgba(245, 210, 234, 0.621);
+    border-radius: 0.3rem;
+    padding: 0.5rem 0.7rem;
+    transition: 0.3s;
+}
+
+#see-more .more .iconfont {
+    margin: 0;
+    margin-left: 0.2rem;
+}
+
+/* hover */
+.article-wrap article:hover {
+    background-color: #f6f6f6;
+    transform: translateY(-0.65rem);
+}
+
+.article-wrap article:hover .content-wrap {
+    color: black;
+}
+
+.article-wrap article:hover .more {
+    background-color: rgba(245, 210, 234, 0.621);
+}

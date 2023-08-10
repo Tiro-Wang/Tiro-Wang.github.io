@@ -1,0 +1,253 @@
+ .brief-intro {
+     width: 48rem;
+     margin: 4rem auto;
+ }
+
+ #about-me {
+     width: 13rem;
+ }
+
+ #intro {
+     margin-left: 1.64rem;
+     flex-wrap: wrap;
+     width: 33.32rem;
+
+ }
+
+ #profession {
+     text-align: center;
+     width: 33.32rem;
+     height: 2.4rem;
+     line-height: 2.4rem;
+     background: #a5b893;
+     border-radius: 0.4rem;
+ }
+
+ #info {
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+ #info div {
+     width: 15.84rem;
+     height: 2.4rem;
+     border: 1px solid #626262;
+     text-align: center;
+     line-height: 2.4rem;
+     border-radius: 0.4rem;
+ }
+
+ /* 信息完善度 */
+ #rate {
+     background-color: #bec2bb85;
+ }
+
+ .section-title.red::before {
+     background-color: #FF2558;
+ }
+
+ .box {
+     width: 52rem;
+     height: 10rem;
+     margin: auto;
+     margin-top: 5.12rem;
+     flex-wrap: wrap;
+ }
+
+ .progress {
+     position: relative;
+     width: 22.4rem;
+     margin-right: 3.2rem;
+ }
+
+ /* .progress p {
+    font-weight: 400;
+    line-height: 0.56rem;
+    font-size: 0.18rem;
+} */
+
+ .progress .percent {
+     position: relative;
+ }
+
+ .progress i {
+     color: rgba(0, 0, 0, 0.13);
+     font-size: 40px;
+     padding-right: 8px;
+     position: absolute;
+     right: 23px;
+     display: block;
+     width: 0.1rem;
+     transform: translateY(-92%);
+ }
+
+ .percent p {
+     font-size: 12px;
+     width: 1.2rem;
+     position: absolute;
+     right: 0.4rem;
+     transform: translateY(-150%);
+ }
+
+ .rate-bar {
+     height: 0.56rem;
+     border-radius: 0.28rem;
+     position: relative;
+     background-color: #ffffff;
+
+ }
+
+ .rate-bar::before {
+     width: 1.84rem;
+     height: 0.6rem;
+     position: absolute;
+     display: inline-block;
+     bottom: 1.36rem;
+ }
+
+ .rate-bar.red {
+     background: #FF2558;
+ }
+
+ .rate-bar.red::before {
+     content: "HTML";
+ }
+
+ .rate-bar.cyan {
+     background: #13B5B1;
+     background: linear-gradient(to right, #13B5B1 80%, white 20%);
+ }
+
+ .rate-bar.cyan::before {
+     content: "PHP";
+ }
+
+ .rate-bar.blue {
+     background: #00A0E9;
+     background: linear-gradient(to right, #00A0E9 60%, white 40%);
+ }
+
+ .rate-bar.blue::before {
+     content: "CSS";
+ }
+
+ .rate-bar.orange {
+     background: #F39800;
+     background: linear-gradient(to right, #F39800 50%, white 50%);
+ }
+
+ .rate-bar.orange::before {
+     content: "WORDPRESS/CMS";
+ }
+
+ .rate-bar.pupr {
+     background: #C490BF;
+     background: linear-gradient(to right, #C490BF 80%, white 20%);
+ }
+
+ .rate-bar.pupr::before {
+     content: 'JAVASCRIPT';
+ }
+
+ .rate-bar.green {
+     background-color: #25FFA0;
+     background: linear-gradient(to right, #25FFA0 70%, white 30%);
+ }
+
+ .rate-bar.green::before {
+     content: 'PHOTOSHOP';
+
+ }
+
+ /* main
+ */
+ .main {
+     width: 48rem;
+     margin: 0 auto;
+     margin-bottom: 3.2rem;
+ }
+
+ .main h3 {
+     margin: 3.72rem 0;
+ }
+
+ .contents {
+     margin-bottom: 1.12rem;
+ }
+
+ .dot {
+     width: 0.72rem;
+     height: 0.72rem;
+     border-radius: 50%;
+     margin-right: 0.48rem;
+     margin-top: 1.12rem;
+     margin-left: 0.52rem;
+ }
+
+ .dot.orange {
+     background: #FF9B2F;
+ }
+
+ .dot.pupr {
+     background-color: #6C6CE5;
+ }
+
+ .date {
+     width: 8.28rem;
+     /* height: 2.33rem; */
+     display: flex;
+     text-align: center;
+     justify-content: space-around;
+     font-weight: bold;
+     font-size: 0.8rem;
+     align-items: center;
+     /* text-indent: 5px; */
+ }
+
+ .date.orange {
+     background-color: #FF9B2F;
+ }
+
+ .date.pupr {
+     background: #6C6CE5;
+ }
+
+ .content {
+     background-color: #bec2bb85;
+     width: 38rem;
+     padding-top: 1.88rem;
+     padding-left: 1.32rem;
+     padding-right: 1.16rem;
+     padding-bottom: 1rem;
+
+ }
+
+ .content .content-info {
+     padding: 0.4rem;
+     height: 2.08rem;
+     line-height: 2.08rem;
+     text-align: center;
+     border-radius: 0.4rem;
+ }
+
+ .content .content-main {
+     display: block;
+     margin-top: 1rem;
+     font-weight: 400;
+ }
+
+ .content-main p {
+     font-size: 12px;
+ }
+
+ .content .content-info span {
+     margin-left: 0.84rem;
+ }
+
+ .content .content-info .orange {
+     color: #FF9B2F;
+ }
+
+ .content .content-info .pupr {
+     color: #6C6CE5;
+ }

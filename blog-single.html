@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- iconfant -->
+    <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3557929_p0ej870bzz.css">
+    <!-- 主样式文件 -->
+    <link rel="stylesheet" href="./css/blog-single.css">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <header id="top-header"></header>
+    <!-- 背景图片 -->
+    <div class="img">
+        <img src="./pictures/single1.png" alt="">
+    </div>
+    <div class="box-all">
+        <div class="box-content">
+            <!-- 文章内容 -->
+            <div class="article">
+                <!-- <div class="article-head flex wrap">
+                    <h1 class="article-title">111</h1>
+                    <p class="article-date">发表时间：20202</p>
+                </div>
+                <div class="article-content">
+                    rememarticle-contentarticle-contentarticle-contentarticle-contentarticle-contentarticle-contentarticle-contentarticle-contentarticle-contentarticle-contentarticle-contentarticle-contentarticle-contentarticle-contentarticle-content
+                </div> -->
+            </div>
+            <!-- 文章分享 -->
+            <div class="extra flex wrap">
+                <div class="tags flex">
+                    <p>标签</p>
+                    <div class="tag blue">travel</div>
+                    <div class="tag pink">december</div>
+                    <div class="tag green">adventure</div>
+                    <div class="tag orange">fun</div>
+                </div>
+                <div class="share flex">
+                    <p>分享到</p>
+                    <a href=""><img src="./pictures/shares/Facebook.png" alt=""></a>
+                    <a href=""><img src="./pictures/shares/picture1.png" alt=""></a>
+                    <a href=""><img src="./pictures/shares/Pinterest.png" alt=""></a>
+                    <a href=""><img src="./pictures/shares/Twitter.png" alt=""></a>
+                </div>
+            </div>
+            <!-- 评论 -->
+            <div>
+                <div id="comments">
+                    <!--插入留言-->
+                    <!-- <div class="comment">
+                      <h4>
+                        <span></span>
+                        <span class="date">34567</span>
+                      </h4>
+                      <p></p>
+                    </div> -->
+                </div>
+                <button class="btn more green">查看更多评论</button>
+
+                <!-- 留言列表 -->
+                <div id="comment-form">
+                    <h4 id="remark">评论</h4>
+                    <p class="flex wrap info">
+                        <input type="text" id="nickname" placeholder="称呼">
+                        <input type="text" id="email" placeholder="Email">
+                    </p>
+
+                    <textarea placeholder="请输入留言" name="" id="message-content" cols="30" rows="10"></textarea>
+
+                    <p>
+                        <button id="btn-post" class="btn c-blue">发布</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>© Copyright tiro. All Rights Reserved </footer><!-- End Footer -->
+
+</body>
+
+<!-- 导航栏文件 -->
+<script src="./JS/header.js"></script>
+<!-- axios -->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<!-- 主样式文件 -->
+<script src="./JS/blog-single.js"></script>
+
+</html>
